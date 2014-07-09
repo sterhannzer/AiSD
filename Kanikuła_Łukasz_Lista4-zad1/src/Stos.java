@@ -1,0 +1,32 @@
+/**
+ * Created by Łukasz on 2014-05-19.
+ */
+public class Stos {
+    Integer[] stos;
+    int wskaznik;
+
+    public Stos(int rozmiarStosu){
+        this.stos = new Integer[rozmiarStosu];
+        this.wskaznik= 0;
+    }
+
+    public void dodajNaStos(int element) throws StosPelny {
+            if(wskaznik == stos.length){
+                throw new StosPelny();
+            }
+            stos[wskaznik] = element;
+            wskaznik += 1;
+    }
+
+
+
+    public int pobierzZeStosu() throws PustyStos {
+        if(wskaznik == 0){
+            throw new PustyStos();
+        }
+        wskaznik -= 1;
+        return stos[wskaznik];
+
+    }
+
+}

@@ -1,0 +1,14 @@
+pre (WLP),  in(LWP),  post order (LPW)
+stog
+bst nast- jeœli jest prawe poddrzewo to jego minimum. Jeœli nie ma  poprzednik , 
+z³o¿onoœæ obliczeniowa (optymistyczna, pesymistyczna, przeciêtnej)
+shellsort z³o¿onoœæ obliczeniowa O(n do 3/2)
+quicksort z³o¿noœæ Liniowo-logarytmiczna)
+mergesort zapotrzebowanie na pamiêæ
+insert sort (przez wstawianie) - prawie uporzadkowane
+selectsort, bubblesort (pamiêciowa O(1)), insertsort - kwadratowa z³o¿noœæ obliczeniowa
+
+sort przez wstawianie : 
+1. wyszukaj minimaln¹ wartoœæ z tablicy spoœród elementów od i+1 do koñca tablicy
+2. zamieñ wartoœæ minimaln¹, z elementem na pozycji i
+

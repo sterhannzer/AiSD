@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=numer\ kwota
+comment0.target=Student(int,\ double)
+comment1.params=kwota
+comment1.target=void\ zwiekszStypendium(double)
+comment2.target=void\ wyswietlDane()
+numComments=3

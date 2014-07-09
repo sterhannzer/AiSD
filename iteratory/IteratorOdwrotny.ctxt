@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=iter
+comment0.target=IteratorOdwrotny(Iterator)
+comment1.target=void\ first()
+comment2.target=void\ last()
+comment3.target=void\ next()
+comment4.target=void\ previous()
+comment5.target=boolean\ isDone()
+comment6.target=Object\ current()
+numComments=7
